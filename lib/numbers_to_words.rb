@@ -1,4 +1,4 @@
-class Fixnum
+class String
   define_method(:numbers_to_words) do
     number_split = self.to_s().split("")
     # output_number = []
